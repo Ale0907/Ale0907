@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Alan's Awesome Access Site </title>
+    </head>
+    
+    <body>
+        <!-- Site Content -->
+        <div>
+
+            <nav>
+
+            </nav>
+
+            <main>
+                <!-- Sidebar Section -->
+                <div>
+                    <img src = "https://www.sutterhealth.org/document/guid/B7AD8DBC-E52F-467F-906A-2366CE233F3B" </img>
+                </div>
+
+                <!-- Content Section -->
+                <div>
+                    <h2> Alan </h2>
+
+                    <p> Student at Belle Chasse High School </p>
+
+                    <!-- Interests Section -->
+                    <div>
+                        <h3> Interests </h3>
+
+                        <ul>
+                            <li> Beating Jace Luckoski </li>
+                            <li> Anime </li>
+                            <li> Sleeping </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </body>
+</html>
