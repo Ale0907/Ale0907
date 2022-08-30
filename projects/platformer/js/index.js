@@ -5,7 +5,7 @@ $(document).ready(function () {
     let 
         opspark = window.opspark,
         game = opspark.createGame(create, update),
-        lives = 3;
+        lives = 10;
         
     function create() {
         game.opspark.init();
@@ -54,7 +54,7 @@ $(document).ready(function () {
             lives--;
             game.lives.text = 'Lives ' + lives;            
         } else {
-            setTimeout(() => game.lives.text = "Game Over: Refresh Your Browser to Play Again", 500);
+            setTimeout(() => game.lives.text = "You Died", 500);
         } 
     }
 

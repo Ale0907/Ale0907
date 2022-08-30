@@ -39,7 +39,10 @@
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
 
     // example:
-    createCollectable(type.dragonball, 180, 170, 8, 0.9);
+    createCollectable(type.dragonball, 180, 170, 3, 0.9);
+    createCollectable(type.dragonball, 300, 475, 3, .9);
+    createCollectable(type.dragonball, 600, 250, 3, 1);
+    createCollectable(type.dragonball, 535, 325, 3, .5)
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
