@@ -40,9 +40,11 @@
 
     // example:
     createCollectable(type.db, 180, 170, 3, 0.9);
-    createCollectable(type.db, 300, 475, 3, .9);
+    createCollectable(type.db, 300, 450, 3, .9);
     createCollectable(type.db, 600, 250, 3, 1);
-    createCollectable(type.db, 535, 325, 3, .5);
+    createCollectable(type.db, 535, 315, 3, .5);
+    createCollectable(type.db, 835, 290, 3, .5);
+    createCollectable(type.db, 300, 90, 3, .5);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
