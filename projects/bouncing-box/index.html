@@ -83,7 +83,7 @@
 				/* code that increases positionX by 10 here */
 				positionX = positionX + speed;
 				positionY = positionY + speedY;
-				moveBoxTo(positionX, positionY);
+				moveBoxTo(positionX, positionY,);
 
 				if (positionX > boardWidth) {
 					speed = -speed;
@@ -108,10 +108,16 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
+				var ranNum = Math.floor(Math.random() * boardWidth);
+				var ranNum2 = Math.floor(Math.random() * boardHeight);
+
+				positionX = ranNum;
+				positionY = ranNum2;
+				
 				positionX = 0;
 				points = points + 1;
 				changeBoxText(points);
-
+				
 				if (speed > 0) {
 					speed += 3;
 				}
