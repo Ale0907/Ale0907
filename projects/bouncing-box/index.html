@@ -73,6 +73,10 @@
 			var positionY = 0;
 			var speedY = 10;
 			var boardHeight = jQuery(window).height();
+			/* attempting to make it a player v player game */
+			var boxClick = handleBoxClick();;
+			var splitScreen = boardWidth - 300;
+			var points2 = 0;
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -131,6 +135,7 @@
 				else if (speedY < 0) {
 					speedY -= 3;
 				}
+
 
 
 			};
